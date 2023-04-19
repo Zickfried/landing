@@ -9,9 +9,13 @@ h1 {
 }
 
 .header {
-    background-image: url(../img/header-background.png);
+    background-image: url(../img/main-backg-picture.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
+
 
 .figma-logo {
     display: block;
@@ -19,5 +23,12 @@ h1 {
     margin-right: auto;
 }
 
+.nav a {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
 
+.nav a:hover {
+    text-decoration: underline;
+}
 
